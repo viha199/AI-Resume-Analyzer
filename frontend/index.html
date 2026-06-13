@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Resume Analyzer</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>AI Resume Analyzer</h1>
+
+        <div class="upload-card">
+
+            <input
+                type="file"
+                id="resumeFile"
+                accept=".pdf"
+            >
+
+            <button onclick="analyzeResume()">
+                Analyze Resume
+            </button>
+
+        </div>
+
+        <div id="results">
+
+            <div class="card">
+                <h2>ATS Score</h2>
+                <p id="atsScore">--</p>
+            </div>
+
+            <div class="card">
+                <h2>Job Match Score</h2>
+                <p id="jobMatch">--</p>
+            </div>
+
+            <div class="card">
+                <h2>Predicted Role</h2>
+                <p id="predictedRole">--</p>
+            </div>
+
+            <div class="card">
+                <h2>Skills Found</h2>
+                <ul id="skillsList"></ul>
+            </div>
+
+            <div class="card">
+                <h2>Suggestions</h2>
+                <ul id="suggestionsList"></ul>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
