@@ -156,7 +156,7 @@ tfidf.pkl
 
 ## Dataset
 
-Resume dataset obtained from Kaggle.
+https://www.kaggle.com/datasets/muqaddasejaz/resume-cv-skills-extraction-dataset?utm_source=chatgpt.com
 
 Expected columns:
 
